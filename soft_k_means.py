@@ -33,7 +33,7 @@ def plot_k_means(X, K, max_iter=20, beta=1.0, show_plots=True):
 
 	costs = np.zeros(max_iter)
 	for i in range(max_iter):
-		# sdetermine assignments / resposibilities
+		# determine assignments / resposibilities
 		for k in range(K):
 			for n in range(N):
 				# R[n,k] = np.exp(-beta*d(M[k], X[n])) / np.sum( np.exp(-beta*d(M[j], X[n])) for j in xrange(K) )
