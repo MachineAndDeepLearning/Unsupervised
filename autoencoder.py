@@ -194,11 +194,11 @@ class DNN(object):
 
 def main():
 	Xtrain, Ytrain, Xtest, Ytest = getKaggleMNIST()
-	# dnn = DNN([1000, 750, 500])
-	# dnn.fit(Xtrain, Ytrain, Xtest, Ytest, epochs=3)
-	# vs
 	dnn = DNN([1000, 750, 500])
-	dnn.fit(Xtrain, Ytrain, Xtest, Ytest, pretrain=False, epochs=10)
+	dnn.fit(Xtrain, Ytrain, Xtest, Ytest, epochs=3)
+	# vs
+	# dnn = DNN([1000, 750, 500])
+	# dnn.fit(Xtrain, Ytrain, Xtest, Ytest, pretrain=False, epochs=10)
 
 
 if __name__ == '__main__':

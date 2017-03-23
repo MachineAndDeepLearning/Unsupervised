@@ -14,6 +14,9 @@ This project implements the following:
 * GMM
 * PCA
 * tsne
+* Autoencoders
+* Stacked autoencoders
+* Restrited Boltzman Machines
 
 ## Credit
 Based on courses from lazyprogrammer.me on Udemy
